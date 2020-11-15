@@ -91,28 +91,66 @@ Lalu mengubah isi file di server malang pada /etc/bind/named.conf.local seperti 
 **Jawaban**
 
 
+**Subdomain gunung.semerua08.pw**
+
+Mengubah isi file di server mojokerto pada /etc/bind/named.conf.local seperti gambar dibawah
+
+
 ![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%231.png)
+
+
+Mengecek pada Client Gresik dengan menggunakan ``ping gunung.semerua08.pw``
 
 
 ![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%232.png)
 
 
+- Delegasi Domain
+
+
+Mengubah isi file di server malang pada /etc/bind/jarkom/semerua08.pw seperti gambar di bawah
+
+
 ![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%233.png)
+
+
+Uncomment pada /etc/bind/named.local.options di server seperti gambar di bawah ini
 
 
 ![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%234.png)
 
 
+Mengubah isi file di server malang pada /etc/bind/named.conf.local seperti gambar di bawah
+
+
 ![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%235.png)
+
+
+Mengubah isi file di server mojokerto pada /etc/bind/named.conf.options seperti gambar di bawah ini
 
 
 ![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%236.png)
 
 
+**subdomain naik.gunung.semerua08.pw**
+
+
+Mengubah isi file di server mojokerto pada /etc/bind/delegasi/gunung.semerua08.pw seperti gambar di bawah ini
+
+
 ![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%237.png)
 
 
+- Hasil Pengecekan
+
+
+Melakukan pengecekan pada client gresik dengan menggunakan ``ping gunung.semerua08.pw``
+
+
 ![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%238.png)
+
+
+Melakukan pengecekan pada client gresik dengan menggunakan ``ping naik.gunung.semerua08.pw``
 
 
 ![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%239.png)
