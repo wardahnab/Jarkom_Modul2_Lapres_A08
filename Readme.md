@@ -173,6 +173,9 @@ Melakukan pengecekan pada client gresik dengan menggunakan ``ping naik.gunung.se
 ![Nomor8](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/8.2.png)
 
 
+Namun, ketika dibuka pada browser semerua08.pw tidak bisa diakses
+
+
 **No 9**
 
 (9)diaktifkan mod rewrite agar urlnya menjadi http://semeruyyy.pw/home.
