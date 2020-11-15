@@ -46,9 +46,9 @@ Membuat sub domain penanjakan di server malang seperti gambar di bawah
 Mengubah isi file di server malang pada /etc/bind/named.conf.local seperti gambar di bawah
 
 
-[Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#1.png)
+![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#1.png)
 
-[Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#2.png)
+![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#2.png)
 
 
 Lalu mengubah isi file di server malang pada /etc/bind/73.151.10.in-addr.arpa seperti gambar dibawah ini
@@ -60,7 +60,7 @@ Lalu mengubah isi file di server malang pada /etc/bind/73.151.10.in-addr.arpa se
 Mengecek di Client Gresik dengan ``host -t PTR 10.151.73.76``
 
 
-![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#3.png)
+![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#4.png)
 
 
 **No 5**
