@@ -46,21 +46,21 @@ Membuat sub domain penanjakan di server malang seperti gambar di bawah
 Mengubah isi file di server malang pada /etc/bind/named.conf.local seperti gambar di bawah
 
 
-![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#1.png)
+![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4%231.png)
 
-![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#2.png)
+![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4%232.png)
 
 
 Lalu mengubah isi file di server malang pada /etc/bind/73.151.10.in-addr.arpa seperti gambar dibawah ini
 
 
-![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#3.png)
+![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4%233.png)
 
 
 Mengecek di Client Gresik dengan ``host -t PTR 10.151.73.76``
 
 
-![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#4.png)
+![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4%234.png)
 
 
 **No 5**
@@ -74,13 +74,13 @@ Mengecek di Client Gresik dengan ``host -t PTR 10.151.73.76``
 Mengubah isi file di server malang pada /etc/bind/named.conf.local seperti gambar di bawah
 
 
-![Nomor5](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-5#1.png)
+![Nomor5](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-5%231.png)
 
 
 Lalu mengubah isi file di server malang pada /etc/bind/named.conf.local seperti gambar di bawah
 
 
-![Nomor5](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-5#2.png)
+![Nomor5](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-5%232.png)
 
 
 **No 6 dan 7**
@@ -91,31 +91,31 @@ Lalu mengubah isi file di server malang pada /etc/bind/named.conf.local seperti 
 **Jawaban**
 
 
-![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#1.png)
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%231.png)
 
 
-![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#2.png)
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%232.png)
 
 
-![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#3.png)
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%233.png)
 
 
-![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#4.png)
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%234.png)
 
 
-![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#5.png)
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%235.png)
 
 
-![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#6.png)
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%236.png)
 
 
-![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#7.png)
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%237.png)
 
 
-![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#8.png)
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%238.png)
 
 
-![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#9.png)
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%239.png)
 
 
 **No 8**
