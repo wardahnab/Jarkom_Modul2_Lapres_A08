@@ -156,32 +156,23 @@ Melakukan pengecekan pada client gresik dengan menggunakan ``ping naik.gunung.se
 ![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6%239.png)
 
 
-**No 8**
+### **No 8**
 
 (8)Domain http://semeruyyy.pw memiliki DocumentRoot pada /var/www/semeruyyy.pw. Awalnya web dapat diakses menggunakan alamat http://semeruyyy.pw/index.php/home. Karena dirasa alamat urlnya kurang bagus, maka 
 
-
-**Jawaban**
-
-
 **Revisi**
 
-
+Meskipun konfigurasi pada ``/etc/bind/jarkom/semerua08.pw`` di Malang sudah diubah (pada A) menuju ke IP Probolinggo, namun saat dilakukan ping menuju ``semerua08.pw`` dari klien tetap menuju ke IP Malang. Karena itu, browser tidak bisa mengakses ``semerua08.pw``.
 ![Nomor8](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/8.1.png)
 
-
+Di samping itu, berikut konfigurasi pada Probolinggo untuk ``semerua08.pw``.
 ![Nomor8](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/8.2.png)
 
-
-Namun, ketika dibuka pada browser semerua08.pw tidak bisa diakses
-
-
-**No 9**
+### **No 9**
 
 (9)diaktifkan mod rewrite agar urlnya menjadi http://semeruyyy.pw/home.
 
-
-**No 10**
+### **No 10**
 
 (10)Web http://penanjakan.semeruyyy.pw akan digunakan untuk menyimpan assets file yang memiliki DocumentRoot pada /var/www/penanjakan.semeruyyy.pw dan memiliki struktur
 folder sebagai berikut:
@@ -196,11 +187,9 @@ folder sebagai berikut:
                                 /errors
 
 
-**Jawaban**
-
-
+**Revisi**
+Bisa dilihat pada directory listing web ``penanjakan.semerua08.pw``.
 ![Nomor9](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/10.1.png)
-
 
 ![Nomor10](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/10.2.png)
 
@@ -209,13 +198,11 @@ folder sebagai berikut:
 
 (11)Pada folder /public dibolehkan directory listing namun untuk folder yang berada di dalamnya tidak dibolehkan.
 
-
-**Jawaban **
-
-
 **Revisi**
+Untuk menonaktifkan directory listing, dilakukan di dalam file berikut.
+![Nomor11](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/11.2.png)
 
-
+Apabila kita mencoba mengakses folder dalam public, contohnya folder *images*, maka akan muncul page **forbidden**.
 ![Nomor11](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/11.1.png)
 
 
@@ -223,13 +210,11 @@ folder sebagai berikut:
 
 (12)Untuk mengatasi HTTP Error code 404, disediakan file 404.html pada folder /errors untuk mengganti error default 404 dari Apache. 
 
-
-**Jawaban**
-
-
 **Revisi**
+Untuk mengimplementasikan error code 404, dilakukan di file berikut ini.
+![Nomor12](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/12.2.png)
 
-
+Tampilan error code 404 sesuai pada folder */errors*.
 ![Nomor12](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/12.1.png)
 
 
@@ -237,62 +222,50 @@ folder sebagai berikut:
 
 (13)Untuk mengakses file assets javascript awalnya harus menggunakan url http://penanjakan.semeruyyy.pw/public/javascripts. Karena terlalu panjang maka dibuatkan konfigurasi virtual host agar ketika mengakses file assets menjadi http://penanjakan.semeruyyy.pw/js. Untuk web http://gunung.semeruyyy.pw belum dapat dikonfigurasi pada web server karena menunggu pengerjaan website selesai. 
 
-
-**Jawaban**
-
-
 **Revisi**
+Dilakukan directory alias pada file di bawah ini dengan konfigurasi berikut.
+![Nomor13](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/13.2.png)
 
-
+Hasil mengakses alamat ``penanjakan.semerua08.pw/js`` adalah sebagai berikut.
 ![Nomor13](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/13.1.png)
 
 
 **No 14**
 
-(14)sedangkan web http://naik.gunung.semeruyyy.pw sudah bisa diakses hanya dengan menggunakan port 8888. DocumentRoot web berada pada /var/www/naik.gunung.semeruyyy.pw. Dikarenakan web http://naik.gunung.semeruyyy.pw bersifat private
-
-
-**Jawaban**
-
+(14)sedangkan web http://naik.gunung.semeruyyy.pw sudah bisa diakses hanya dengan menggunakan port 8888. DocumentRoot web berada pada /var/www/naik.gunung.semeruyyy.pw. 
 
 **Revisi**
-
+Setting web ``naik.gunung.semerua08.pw`` dilakukan pada file berikut, di mana port diganti menjadi ``8888``.
 
 ![Nomor14](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/14.1.png)
 
+Selain itu juga menambahkan ``Listen 8888`` pada file ``/etc/apache2/ports.conf``. Berikut adalah alamat web ``naik.gunung.semerua08.pw`` yang sudah bisa diakses.
 
 ![Nomor14](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/14.2.png)
 
 
 **No 15**
 
-(15)Bibah meminta kamu membuat web http://naik.gunung.semeruyyy.pw agar diberi autentikasi password dengan username “semeru” dan password “kuynaikgunung” supaya
+Dikarenakan web http://naik.gunung.semeruyyy.pw bersifat private (15)Bibah meminta kamu membuat web http://naik.gunung.semeruyyy.pw agar diberi autentikasi password dengan username “semeru” dan password “kuynaikgunung” supaya
 aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROBOLINGGO, yang muncul bukan web utama http://semeruyyy.pw melainkan laman default Apache yang bertuliskan “It works!”.
 
-
-**Jawaban**
-
-
 **Revisi**
-
+Untuk authentication, sudah dicoba memasukkan Auth di dalam file berikut (yang bagian dicomment, tapi sebelumnya diuncomment)
 
 ![Nomor15](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/15.1.png)
 
-
+Dan dicoba juga menggunakan file ``.htaccess``, namun authentication masih belum bisa bekerja.
 ![Nomor15](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/15.2.png)
-
 
 **No 16**
 
 (16)Karena dirasa kurang profesional, maka setiap Bibah mengunjungi IP PROBOLINGGO akan dialihkan secara otomatis ke http://semeruyyy.pw.
 
-
-**Jawaban**
-
-
 **Revisi**
+Dilakukan rewrite pada file ``.htaccess`` pada Probolinggo.
+![Nomor16](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/16.2.png)
 
-
+Berikut hasil redirect dari IP Probolinggo ``10.151.73.76`` menuju ke ``semerua08.pw``.
 ![Nomor16](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/16.1.png)
 
 
