@@ -4,7 +4,7 @@
 **Soal**
 
 
-Semeru adalah salah satu gunung yang terkenal di Jawa Timur. Bibah adalah salah satu juru kunciSemeru. Bibah ingin menyebarkan keindahan Semeru pada dunia sehingga dia membeli 3 buah server yang berada di MALANG, MOJOKERTO dan PROBOLINGGO. Server MALANG akan digunakan sebagai DNS Server Master, MOJOKERTO akan digunakan sebagai DNS Server Slave dan PROBOLINGGO akan digunakan sebagai Web Server. Selain 3 server terdapat 2 klien yang digunakan untuk testing oleh Bibah yaitu GRESIK dan SIDOARJO. Untuk menyambungkan semua jaringan tersebut Bibah memberi router di SURABAYA. Kalian diminta untuk membuat sebuah website utama dengan 
+Semeru adalah salah satu gunung yang terkenal di Jawa Timur. Bibah adalah salah satu juru kunci Semeru. Bibah ingin menyebarkan keindahan Semeru pada dunia sehingga dia membeli 3 buah server yang berada di MALANG, MOJOKERTO dan PROBOLINGGO. Server MALANG akan digunakan sebagai DNS Server Master, MOJOKERTO akan digunakan sebagai DNS Server Slave dan PROBOLINGGO akan digunakan sebagai Web Server. Selain 3 server terdapat 2 klien yang digunakan untuk testing oleh Bibah yaitu GRESIK dan SIDOARJO. Untuk menyambungkan semua jaringan tersebut Bibah memberi router di SURABAYA. Kalian diminta untuk membuat sebuah website utama dengan 
 
 
 **No 1 dan 2**
@@ -14,6 +14,10 @@ Semeru adalah salah satu gunung yang terkenal di Jawa Timur. Bibah adalah salah 
 
 **Jawaban**
 
+
+Mengubah Sever Name dan Server alias menjadi semerua08.pw dan www.semerua08.pw
+
+![Nomor-12]()
 
 **No 3**
 
