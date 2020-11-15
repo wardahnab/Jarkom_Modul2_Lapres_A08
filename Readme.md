@@ -17,7 +17,9 @@ Semeru adalah salah satu gunung yang terkenal di Jawa Timur. Bibah adalah salah 
 
 Mengubah Sever Name dan Server alias menjadi semerua08.pw dan www.semerua08.pw
 
-![Nomor-12]()
+
+![Nomor-12](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-1-2.png)
+
 
 **No 3**
 
@@ -25,6 +27,12 @@ dan (3)subdomain http://penanjakan.semeruyyy.pw yang diatur DNS-nya pada MALANG 
 
 
 **Jawaban**
+
+
+Membuat sub domain penanjakan di server malang seperti gambar di bawah
+
+
+![Nomortiga](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-3.png)
 
 
 **No 4**
@@ -35,6 +43,26 @@ dan (3)subdomain http://penanjakan.semeruyyy.pw yang diatur DNS-nya pada MALANG 
 **Jawaban**
 
 
+Mengubah isi file di server malang pada /etc/bind/named.conf.local seperti gambar di bawah
+
+
+[Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#1.png)
+
+[Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#2.png)
+
+
+Lalu mengubah isi file di server malang pada /etc/bind/73.151.10.in-addr.arpa seperti gambar dibawah ini
+
+
+![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#3.png)
+
+
+Mengecek di Client Gresik dengan ``host -t PTR 10.151.73.76``
+
+
+![Nomor4](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-4#3.png)
+
+
 **No 5**
 
 (5)DNS Server Slave pada MOJOKERTO agar Bibah tidak terganggu menikmati keindahan Semeru pada Website. Selain website utama Bibah juga meminta dibuatkan
@@ -43,21 +71,51 @@ dan (3)subdomain http://penanjakan.semeruyyy.pw yang diatur DNS-nya pada MALANG 
 **Jawaban**
 
 
-**No 6**
+Mengubah isi file di server malang pada /etc/bind/named.conf.local seperti gambar di bawah
 
-(6)subdomain dengan alamat http://gunung.semeruyyy.pw yang didelegasikan pada server MOJOKERTO dan mengarah ke IP Server PROBOLINGGO. Bibah juga ingin memberi petunjuk mendaki gunung semeru kepada anggota komunitas sehingga dia meminta dibuatkan
+
+![Nomor5](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-5#1.png)
+
+
+Lalu mengubah isi file di server malang pada /etc/bind/named.conf.local seperti gambar di bawah
+
+
+![Nomor5](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-5#2.png)
+
+
+**No 6 dan 7**
+
+(6)subdomain dengan alamat http://gunung.semeruyyy.pw yang didelegasikan pada server MOJOKERTO dan mengarah ke IP Server PROBOLINGGO. Bibah juga ingin memberi petunjuk mendaki gunung semeru kepada anggota komunitas sehingga dia meminta dibuatkan (7)subdomain dengan nama http://naik.gunung.semeruyyy.pw, domain ini diarahkan ke IP Server PROBOLINGGO. Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur web server.
 
 
 **Jawaban**
 
 
-**No 7**
-
-(7)subdomain dengan nama
-http://naik.gunung.semeruyyy.pw, domain ini diarahkan ke IP Server PROBOLINGGO. Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur web server.
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#1.png)
 
 
-**Jawaban**
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#2.png)
+
+
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#3.png)
+
+
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#4.png)
+
+
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#5.png)
+
+
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#6.png)
+
+
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#7.png)
+
+
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#8.png)
+
+
+![Nomor6](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/Nomor-6#9.png)
 
 
 **No 8**
