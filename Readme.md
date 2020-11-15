@@ -1,7 +1,7 @@
 # Laporan Resmi Praktikum Modul 2 Kelompok A8
 
 
-**Soal**
+## **Soal**
 
 
 Semeru adalah salah satu gunung yang terkenal di Jawa Timur. Bibah adalah salah satu juru kunci Semeru. Bibah ingin menyebarkan keindahan Semeru pada dunia sehingga dia membeli 3 buah server yang berada di MALANG, MOJOKERTO dan PROBOLINGGO. Server MALANG akan digunakan sebagai DNS Server Master, MOJOKERTO akan digunakan sebagai DNS Server Slave dan PROBOLINGGO akan digunakan sebagai Web Server. Selain 3 server terdapat 2 klien yang digunakan untuk testing oleh Bibah yaitu GRESIK dan SIDOARJO. Untuk menyambungkan semua jaringan tersebut Bibah memberi router di SURABAYA. Kalian diminta untuk membuat sebuah website utama dengan 
@@ -159,6 +159,17 @@ Melakukan pengecekan pada client gresik dengan menggunakan ``ping naik.gunung.se
 **No 8**
 
 (8)Domain http://semeruyyy.pw memiliki DocumentRoot pada /var/www/semeruyyy.pw. Awalnya web dapat diakses menggunakan alamat http://semeruyyy.pw/index.php/home. Karena dirasa alamat urlnya kurang bagus, maka 
+
+
+**Jawaban**
+
+
+**Revisi**
+
+
+![Nomor8](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/8.1.png)
+
+
 
 
 **No 9**
