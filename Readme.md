@@ -170,6 +170,7 @@ Melakukan pengecekan pada client gresik dengan menggunakan ``ping naik.gunung.se
 ![Nomor8](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/8.1.png)
 
 
+![Nomor8](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/8.2.png)
 
 
 **No 9**
@@ -195,6 +196,12 @@ folder sebagai berikut:
 **Jawaban**
 
 
+![Nomor9](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/10.1.png)
+
+
+![Nomor10](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/10.2.png)
+
+
 **No 11**
 
 (11)Pada folder /public dibolehkan directory listing namun untuk folder yang berada di dalamnya tidak dibolehkan.
@@ -204,6 +211,9 @@ folder sebagai berikut:
 
 
 **Revisi**
+
+
+![Nomor11](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/11.1.png)
 
 
 **No 12**
@@ -217,6 +227,9 @@ folder sebagai berikut:
 **Revisi**
 
 
+![Nomor12](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/12.1.png)
+
+
 **No 13**
 
 (13)Untuk mengakses file assets javascript awalnya harus menggunakan url http://penanjakan.semeruyyy.pw/public/javascripts. Karena terlalu panjang maka dibuatkan konfigurasi virtual host agar ketika mengakses file assets menjadi http://penanjakan.semeruyyy.pw/js. Untuk web http://gunung.semeruyyy.pw belum dapat dikonfigurasi pada web server karena menunggu pengerjaan website selesai. 
@@ -226,6 +239,9 @@ folder sebagai berikut:
 
 
 **Revisi**
+
+
+![Nomor13](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/13.1.png)
 
 
 **No 14**
@@ -239,10 +255,28 @@ folder sebagai berikut:
 **Revisi**
 
 
+![Nomor14](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/14.1.png)
+
+
+![Nomor14](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/14.2.png)
+
+
 **No 15**
 
 (15)Bibah meminta kamu membuat web http://naik.gunung.semeruyyy.pw agar diberi autentikasi password dengan username “semeru” dan password “kuynaikgunung” supaya
 aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROBOLINGGO, yang muncul bukan web utama http://semeruyyy.pw melainkan laman default Apache yang bertuliskan “It works!”.
+
+
+**Jawaban**
+
+
+**Revisi**
+
+
+![Nomor15](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/15.1.png)
+
+
+![Nomor15](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/15.2.png)
 
 
 **No 16**
@@ -254,6 +288,9 @@ aman dan tidak sembarang orang bisa mengaksesnya. Saat Bibah mengunjungi IP PROB
 
 
 **Revisi**
+
+
+![Nomor16](https://github.com/wardahnab/Jarkom_Modul2_Lapres_A08/blob/main/Gambar/16.1.png)
 
 
 **No 17**
